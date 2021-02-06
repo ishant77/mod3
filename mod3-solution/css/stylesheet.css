@@ -1,1 +1,128 @@
+.*{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+	border:0;
+}
+body{
+	background-color:red;
+	color:white;
+	font-size: 13px;
+	font-family:Oxygen;
+}
+
+#header-nav{
+	background-color:green;
+	border-radius:0;
+	border:0;
+
+}
+.navbar-header button.navbar-toggle, .icon-bar{
+	border:1px solid orange;
+}
+#nav-list a{
+	color:orange;
+	font-size:1.1em;
+}
+.navbar-default .navbar-brand {
+    color: pink;
+}
+h1.navbar-brand{
+	font-family: cursive;
+	color:pink;
+	font-size:1.5em;
+
+}
+div.page-heading>h2{
+	margin-top:30px;
+	font-size: 3em;
+}
+.row>*{
+	padding:0px;
+	margin:0px;
+}
+
+
+.column1,.column2{
+	background-color: grey;
+	border:3px solid black;
+	position:relative;
+	height:250px;
+	width:370px;
+	margin:20px auto 20px;
+	overflow: auto;
+
+}
+.column3{
+	background-color: grey;
+	border:3px solid black;
+	position:relative;
+	height:250px;
+	width:90%;
+	margin:20px auto 20px;
+	overflow: auto;
+
+}
+
+
+
+div.column1 >h2{
+	margin-left:75%;
+	width:25%;
+	background:blue;
+	color:red;
+	border:1px solid black;
+	font-size: 1.5em;
+
+
+}
+div.column2 >h2{
+	margin-left:60%;
+	width:40%;
+	background:green;
+	color:white;
+	overflow: hidden;
+	border:1px solid black;
+	font-size: 1.5em;
+
+}
+div.column3 >h2{
+	margin-left:70%;
+	width:30%;
+	background:yellow;
+	color:red;
+	border:1px solid black;
+	font-size: 1.5em;
+}
+p{
+	padding: 10px;
+	font-family:cursive;
+
+}
+
+.navbar-toggle{
+	position:absolute;
+	top:10px;
+	right:5px;
+}
+@media(max-width: 767px){
+	.column1,.column2,.column3{
+	background-color: grey;
+	border:3px solid black;
+	position:relative;
+	height:250px;
+	width:90%;
+	margin:20px auto 20px;
+	overflow: auto;
+	font-size: 1.5em;
+	}
+}
+@media(min-width: 768px){
+	.column1,.column2,.column3{
+	font-size:1.3em;
+	
+
+}
+
+
 
