@@ -116,6 +116,10 @@ p{
 	overflow: auto;
 	font-size: 1.5em;
 	}
+	div.column2 >h2{
+	margin-left:64%;
+	width:36%;
+	}
 }
 @media(min-width: 768px){
 	.column1,.column2,.column3{
